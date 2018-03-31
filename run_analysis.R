@@ -1,6 +1,5 @@
+#Loading libraries
 library(dplyr)
-library(ddply)
-setwd("F:\\EigeneDateien\\Coursera\\DataScience\\R-Course_WorkingDirectory\\Course3\\Graded_Assignment")
 
 #Step one
 #Merges the training and the test sets to create one data set.
