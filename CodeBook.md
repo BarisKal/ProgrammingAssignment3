@@ -1,5 +1,5 @@
 # Code Book
-The [tidy dataset](https://github.com/BarisKal/ProgrammingAssignment3/blob/master/tidydata.txt) 68 columns and 180 rows. Each row has averaged variables for each subject and each activity. This code book summarizes the resulting data fields in [tidydata.txt](https://github.com/BarisKal/ProgrammingAssignment3/blob/master/tidydata.txt)
+The [tidy dataset](https://github.com/BarisKal/ProgrammingAssignment3/blob/master/tidydata.txt) has 68 columns and 180 rows. Each row has averaged variables for each subject and each activity. This code book summarizes the resulting data fields in [tidydata.txt](https://github.com/BarisKal/ProgrammingAssignment3/blob/master/tidydata.txt)
 
 ## Performed actions on data set
 0. Datastes were downloaded an unzipped in the working directory.
