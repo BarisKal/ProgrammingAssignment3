@@ -49,8 +49,7 @@ allData <- cbind(subjectData, xdata, ydata)
 
 #Step five
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-# Create a new table, finalDataNoActivityType without the activityType column
-total_mean <- allData %>% group_by(activity, subject) %>% summarize_each(funs(mean))
+allMean <- allData %>% group_by(activity, subject) %>% summarize_each(funs(mean))
 
 #Write tidy dataset to disk
-write.table(total_mean, file = ".\\tidydata.txt", row.names = FALSE, col.names = TRUE)
+write.table(allMean, file = ".\\tidydata.txt", row.names = FALSE, col.names = TRUE)
