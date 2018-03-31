@@ -18,4 +18,4 @@ You should create one R script called run_analysis.R that does the following:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Code Book
-For further information there is a [Code Book]() which describes the variables, the data, and any transformations or work that was performed to clean up the data.
+For further information there is a [Code Book](https://github.com/BarisKal/ProgrammingAssignment3/blob/master/CodeBook.md) which describes the variables, the data, and any transformations or work that was performed to clean up the data.
